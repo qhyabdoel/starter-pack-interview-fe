@@ -1,3 +1,7 @@
+# Test results
+
+- I have deployed the back end. You can see it at https://kikibetestsp.vercel.app
+- API documentation is at https://documenter.getpostman.com/view/1181506/2sAXxV5pbc
 
 # Interview Task: Login API and CRUD Service
 
@@ -39,11 +43,13 @@ You are required to create a **backend API** using either **Golang** or **Node.j
 You will need to build a separate backend API using **Golang** or **Node.js**.
 
 1. **Create a Login API**:
+
    - Implement a `POST /login` route to handle user authentication.
    - Use **JWT** for authentication.
    - Upon successful login, return a JWT token.
 
 2. **Create a CRUD Service**:
+
    - Implement a basic CRUD service to manage resources (e.g., `Tasks`, `Products`, or `Notes`).
    - CRUD routes example:
      - `GET /items`: Retrieve all items.
